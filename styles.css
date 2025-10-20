@@ -1,3 +1,45 @@
+body{
+    background: #cde0ee;
+    font-family:"arial";
+    padding:25px;
+}
+h1{
+    font-family:"times new roman";
+    background:#89bbde;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    border: 2px solid #3884ba;
+}
+h2{
+    font-family:"times new roman";
+    margin-left:10px;
+}
+h3{
+    background: #89bbde;
+    border: 5px dashed #3884ba;
+    border-radius: 15px;
+    padding: 10px;
+    width:120px;
+    text-align:center;
+}
+p{
+    line-height: 2.5em;
+}
+img{
+    width:300px;
+    float:left;
+    margin-right: 15px;
+    border-radius: 15px;
+}
+
+#pic1{
+    float: right;
+    margin-left: 15px;
+    border-radius:15px;
+    width:250px;
+}
 
 #sidebar{
     /*needs a width why im not entirely sure*/
@@ -6,6 +48,7 @@
     float: right;
     border: 2px solid black;
     margin: 15px;
+    
 }
 
 #sidebar h3{
