@@ -14,7 +14,7 @@ h1{
 }
 h2{
     font-family:"times new roman";
-    margin-left:10px;
+    margin-left:32px;
 }
 h3{
     background: #89bbde;
@@ -34,7 +34,13 @@ img{
     margin-right: 15px;
     border-radius: 15px;
 }
-
+.highlight{
+    background: #c1b3f3;
+}
+.bold{
+    text-decoration: underline;
+    font-weight:bold;
+}
 #pic1{
     float: right;
     margin-left: 15px;
@@ -42,13 +48,24 @@ img{
     width:250px;
 }
 
+a:link{
+    color: #2678b3;
+}
+a:visited{
+    color: #9406d6;
+}
+a:hover{
+    color:#b952ac;
+}
+
 #sidebar{
     background-color:antiquewhite;
     width: 250px;
     float: right;
     border: 2px solid #3884ba;
-    padding: 15px;
+    padding: 5px;
     padding-top: 5px;
+    line-height: 2em;
 }
 
 #sidebar h3{
