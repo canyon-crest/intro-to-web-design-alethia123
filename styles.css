@@ -92,7 +92,25 @@ we're doing for screen size*/
     #container{
         width:100%;
         background: #e9cdee;
-        /*makes page stretch all the way*/
+        padding: 0px;
+        padding-bottom: 10px;
+        padding-top:30px;
+    }
+ 
+    #pic1{
+        width:225px;
+        margin-right: 10px;
+    }
+    p{
+        margin: 10px;
+    }
+    #sidebar{
+        float:left;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    img{
+        margin-left: 10px;
     }
 }
 @media (max-width:768px){   
@@ -103,9 +121,15 @@ we're doing for screen size*/
         display: none;
     }
     img{
-        clear:both;
+        float:none;
+        width:250px;
+        display:block;
+        margin:0 auto;
+    }
+    #pic1{
+        float:none;
+        width: 200px;
+        display:block;
+        margin: 0 auto;
     }
 }
-
-/*want links to be diff color and something happens when you hover
-media queries are importanttt, want 4 sizes */
