@@ -23,6 +23,11 @@ h2{
     font-family:"times new roman";
     margin-left:32px;
 }
+@keyframes animation{
+    0% {margin-left: 0px}
+    80%{margin-left:40px}
+    100%{margin-left:20px}
+}
 h3{
     background: #89bbde;
     border: 5px dashed #3884ba;
@@ -31,6 +36,8 @@ h3{
     margin: 20px;
     width:120px;
     text-align:center;
+    animation-name: animation;
+    animation-duration: 2s;
 }
 p{
     line-height: 2.5em;
@@ -110,7 +117,7 @@ we're doing for screen size*/
         margin-right: 20px;
     }
     img{
-        margin-left: 10px;
+        margin-left: 10px;  
     }
 }
 @media (max-width:768px){   
@@ -120,16 +127,17 @@ we're doing for screen size*/
     #sidebar{
         display: none;
     }
-    img{
-        float:none;
-        width:250px;
-        display:block;
-        margin:0 auto;
-    }
     #pic1{
         float:none;
         width: 200px;
         display:block;
         margin: 0 auto;
+    }
+    img{
+        float:none;
+        width:250px;
+        display:block;
+        margin:0 auto;
+        border:4px solid #e370a6;
     }
 }
